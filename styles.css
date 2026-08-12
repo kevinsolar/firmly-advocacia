@@ -22,14 +22,14 @@
 
 *,*::before,*::after{box-sizing:border-box;border-radius:0!important}
 html{scroll-behavior:smooth;scroll-padding-top:1.5rem}
-body{margin:0;background:#c7beb7;color:var(--ink);font-family:var(--sans);font-size:15px;line-height:1.65;overflow-x:hidden}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--sans);font-size:15px;line-height:1.65;overflow-x:hidden}
 body.menu-open{overflow:hidden}
 img{display:block;max-width:100%;height:auto}
 a{color:inherit;text-decoration:none}
 button,input{font:inherit}
 button{color:inherit}
 :focus-visible{outline:2px solid var(--brown);outline-offset:4px}
-.page-shell{width:min(calc(100% - 6vw),1440px);margin:5vw auto;background:var(--bg);overflow:hidden}
+.page-shell{width:100%;margin:0;background:var(--bg);overflow:hidden}
 .container{width:min(calc(100% - 10rem),1240px);margin-inline:auto}
 .section{padding-block:var(--section)}
 .skip-link{position:fixed;left:1rem;top:1rem;z-index:9999;padding:.8rem 1rem;background:var(--brown-dark);color:var(--surface);transform:translateY(-160%);transition:transform .2s ease}
